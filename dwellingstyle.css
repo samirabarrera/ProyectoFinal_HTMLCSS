@@ -1,4 +1,5 @@
 * {
+    margin: 0;
     font-family: sans-serif;
 }
 
@@ -10,22 +11,47 @@ li {
     background-color: #fedc32;
     color: white;
     display: flex;
-    justify-content: flex-end;
-    flex-direction: row;
+    align-items: center;
 }
 
-.container1 :hover {
+.container1 img.dwelling{
+    display: flex;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+
+.container1 .main-navbar li#general-information {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 0px 5px;
+    padding: 10px 0px;
+}
+
+.container1 .main-navbar li#general-information :hover {
     background-color:white;
     color: black;
+    border: none;
+    height: 20%;
 }
 
 .container2 {
     background-image: url(./P_images/house.PNG);
-    width: 100%;
-    height: auto;
-    color: aliceblue;
+    color: white;
+    box-sizing: border-box;
     display: flex;
-    justify-content: center;
+    flex-grow: 100px    ;
+    height: auto;
+    line-height: 25.32px;
+    
+}
+
+.container2 h2.find_property_text {
+    padding: 0px 0px 10px;
+}
+
+.container2 p.text_property {
+    padding: 30px 0px 0px;
 }
 
 .container2 button#get-started {
@@ -33,6 +59,7 @@ li {
     color: white;
     border-radius: 10%;
     border: 0;
+    padding:  12px 10px;
 }
 
 .container2 button#get-started:hover {
@@ -68,3 +95,36 @@ li {
     padding: 0px 15px;
 }
 
+/*container 4*/
+
+.container5 {
+    background-color: #fedc32;
+    color: white;
+}
+
+.container5 .blog_1 {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.container5 .blog_2 button#read_more {
+    background-color: white;
+    color: black;
+    border: none;
+    height: 50px;
+    width: 150px;
+    border-radius: 5%;
+    cursor: pointer;
+}
+
+.container5 .blog_2 button#read_more:hover {
+    background-color: black;
+    color: white;
+}
+
+.container5 img.front_building {
+    display: flex;
+    justify-content: flex-end;
+}
