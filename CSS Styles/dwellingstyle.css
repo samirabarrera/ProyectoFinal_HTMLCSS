@@ -60,7 +60,6 @@ li {
     object-fit: fill;
     color: white;
     width: 950px;
-    max-width: 1200px;
     padding: 200px; 
 
     display: flex;
@@ -100,10 +99,23 @@ li {
     padding: 90px 0px 0px;
     
     display: flex;
-    flex-flow: column;
+    flex-direction: column;
+    align-items: center;
+    width: 100%; 
+    height: 100vh; 
+}
+
+.container3 h2.about_us_title p.aboutus_text {
+    display: flex;
     justify-content: flex-start;
-    align-items: flex-start;
-    min-height: 200px;
+}
+
+.container3 a {
+    text-decoration: none;
+}
+
+.container3 a:hover {
+    color: white;
 }
 
 .container3 button#readable {
@@ -114,17 +126,33 @@ li {
     width: 150px;
     border-radius: 5%;
     padding: 12px;
+    font-size: large;
 }
 
 .container3 button#readable:hover{
     background-color: black;
     color: white;
+    cursor: pointer;
 }
 
 .container3 img.image_of_house {
     display: flex;
-    justify-content: flex-end;
-    padding: 0px 15px;
+    align-items: center;
+    align-self: flex-end;
 }
 
-/*container 4*/
+.container4 h3#properties_text {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.container4 #property_text {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
