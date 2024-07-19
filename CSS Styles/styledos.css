@@ -55,3 +55,23 @@
     border: 1% solid;
     box-shadow: 10%;
 }
+
+
+.container8 {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.container8 .menu1 {
+    display: flex;
+}
+
+.container8 .menu2 :hover {
+    color: #fedc32;
+}
