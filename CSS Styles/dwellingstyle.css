@@ -135,10 +135,12 @@ li {
     cursor: pointer;
 }
 
-.container3 img.image_of_house {
+.container3 #aboutus_image img.image_of_house {
     display: flex;
-    align-items: center;
-    align-self: flex-end;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-content: space-around;
+
 }
 
 .container4 h3#properties_text {
