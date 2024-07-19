@@ -33,16 +33,19 @@ li {
     color: black;
     border: none;
     height: 20%;
+    width: 100px;
+    height: 25px;
+    cursor: pointer;
 }
 
 .container2 {
-    background-image: url(./P_images/house.PNG);
+    background-image: url(/P_images/house.PNG);
+    background-size: cover;
     object-fit: fill;
     color: white;
     box-sizing: border-box;
     display: flex;
-    flex-grow: 100px    ;
-    height: auto;
+    flex-grow: 100px;
     line-height: 25.32px;
 }
 
@@ -73,6 +76,12 @@ li {
     background-color: #fedc32;
     color: white;
     padding: 90px 0px 0px;
+    
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    min-height: 200px;
 }
 
 .container3 button#readable {
