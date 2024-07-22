@@ -1,0 +1,281 @@
+/* Properties */
+.container4 {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+#properties_text {
+    font-size: 2.5em;
+}
+
+#property_text {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+#all_images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+#all_images div {
+    flex: 1 1 calc(33.333% - 20px);
+}
+
+#all_images img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Sección de Blog */
+.container5 {
+    background-color: #fedc32;
+    color: white;
+    padding: 5%;
+    font-size: larger;
+}
+
+.container5 .blog_1 #caps_ourblog ::after {
+    display: flex;
+    border: white solid;
+}
+
+.container5 .blog_1 {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.container5 .blog_2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+.container5 .blog_2 button#read_more {
+    background-color: white;
+    color: black;
+    border: none;
+    height: 50px;
+    width: 150px;
+    border-radius: 5%;
+    cursor: pointer;
+    font-size: large;
+}
+
+.container5 .blog_2 button#read_more:hover {
+    background-color: black;
+    color: white;
+}
+
+.blog_3 img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .container5 {
+        flex-direction: column;
+    }
+
+    .blog_1, .blog_2, .blog_3 {
+        flex: 1 1 100%;
+        margin-bottom: 20px;
+    }
+
+    .blog_1 h2, .blog_2 h2 {
+        font-size: 1.5em;
+    }
+
+    .blog_1 p, .blog_2 p {
+        font-size: 1em;
+    }
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .container5 {
+        flex-direction: column;
+    }
+
+    .blog_1, .blog_2, .blog_3 {
+        flex: 1 1 100%;
+        margin-bottom: 20px;
+    }
+
+    .blog_1 h2, .blog_2 h2 {
+        font-size: 1.5em;
+    }
+
+    .blog_1 p, .blog_2 p {
+        font-size: 1em;
+    }
+}
+
+
+/* Testimonials section */
+.container6 {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.first_banner_testimonials {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.box_of_testimonials {
+    background: #f4f4f4;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+#name {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+#info-testimonials {
+    font-size: 1.2em;
+}
+
+/* Sección de Contacto */
+.container7 {
+    padding: 50px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#contactus {
+    flex: 1;
+    margin-right: 20px;
+}
+
+#info_ {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+#contact-info {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.mapa iframe {
+    max-width: 100%;
+    border: none;
+    flex: 2;
+}
+
+.contact-form {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact-form input, .contact-form button {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background: #007BFF;
+    color: white;
+}
+
+.contact-form a {
+    color: white;
+}
+
+/* Pie de página */
+.container8 {
+    background: #333;
+    color: white;
+    padding: 50px 20px;
+}
+
+.menu1, .menu2, .menu3 {
+    flex: 1;
+    margin: 0 20px;
+}
+
+.menu1 h1, .menu2 h1, .menu3 h1 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.menu1 p, .menu2 p, .menu3 p {
+    font-size: 1.2em;
+}
+
+.menu1 ol, .menu2 ol {
+    margin: 20px 0;
+}
+
+.menu1 li, .menu2 li {
+    margin-bottom: 10px;
+}
+
+.menu4 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.menu4 a {
+    color: black;
+}
+
+@media (max-width: 768px) {
+    .container1 {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .main-navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container3 {
+        flex-direction: column;
+    }
+
+    .text_container, .aboutus_image {
+        max-width: 100%;
+    }
+
+    #all_images div {
+        flex: 1 1 calc(50% - 20px);
+    }
+
+    .container5 {
+        flex-direction: column;
+    }
+
+    .blog_1, .blog_2, .blog_3 {
+        margin: 20px 0;
+    }
+
+    .container7 {
+        flex-direction: column;
+    }
+
+    .mapa {
+        margin: 20px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    #all_images div {
+        flex: 1 1 100%;
+    }
+}

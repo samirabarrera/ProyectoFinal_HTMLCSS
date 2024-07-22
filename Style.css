@@ -1,19 +1,23 @@
-* {
+/* Estilos Generales */
+body, html {
     margin: 0;
-    font-family: sans-serif;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    box-sizing: border-box;
 }
 
-li {
-    list-style: none;
-}
-
-a{
+a {
+    color: inherit;
     text-decoration: none;
-    cursor: pointer;
-    font-family: sans-serif;
-    font-size: large;
 }
 
+ul, li, ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezado */
 .container1 {
     display: flex;
     align-items: center;
@@ -50,18 +54,12 @@ a{
     border-radius: 5%;
 }
 
-.user_image {
-    margin-right: 5px;
-    width: 20px; 
-    height: auto; 
-}
-
-.icon_magnifying {
+.user_image, .icon_magnifying {
     width: 20px;
-    height: auto;
+    height: 20px;
 }
 
-/*container2*/
+/* Sección de Presentación, container 2 */
 .container2 .slider-box {
     background-image: url(/P_images/house.PNG);
     background-size: cover;
@@ -82,7 +80,6 @@ a{
     justify-content: center;
 }
 
-
 .container2 .slider-box button#get-started {
     background-color: #fedc32;
     color: white;
@@ -98,4 +95,55 @@ a{
     color: black;
     border: 0;
     cursor: pointer;
+}
+
+/* Sección About Us */
+.container3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 20px;
+    background: #fedc32;
+    color: white;
+}
+
+.text_container {
+    max-width: 60%;
+}
+
+.aboutus_image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.about_us_title {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.aboutus_text {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+#readable {
+    background: white;
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+#readable:hover {
+    background-color: #333;
+    color: white;
+}
+
+#readable a {
+    color: #333;
+}
+
+#readable a:hover {
+    background-color: #333;
+    color: white;
 }

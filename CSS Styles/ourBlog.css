@@ -40,10 +40,3 @@
     background-color: black;
     color: white;
 }
-
-.container5 .blog_3 img.front_building {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-}
