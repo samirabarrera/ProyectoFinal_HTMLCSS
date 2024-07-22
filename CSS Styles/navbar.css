@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-size: large;
+}
+
+.container1 {
+    display: flex;
+    align-items: center;
+    background-color: #fedc32;
+    color: white;
+}
+
+.dwelling {
+    margin-right: 20px;
+}
+
+#general-information {
+    list-style-type: none; 
+    display: flex; 
+    padding: 0;
+    margin: 0;
+}
+
+#general-information ol {
+    margin: 0 10px; 
+}
+
+#general-information a {
+    text-decoration: none;
+    color: white;
+}
+
+#general-information a:hover {
+    border: none;
+    background-color: white;
+    color: black;
+    border: none;
+    height: auto;
+    border-radius: 5%;
+}
+
+.user_image {
+    margin-right: 5px;
+    width: 20px; 
+    height: auto; 
+}
+
+.icon_magnifying {
+    width: 20px;
+    height: auto;
+}
+
+/*container2*/
+.container2 .slider-box {
+    background-image: url(/P_images/house.PNG);
+    background-size: cover;
+    object-fit: fill;
+    color: white;
+    width: 950px;
+    padding: 200px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+}
+
+.container2 .slider-box h2 p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.container2 .slider-box button#get-started {
+    background-color: #fedc32;
+    color: white;
+    border-radius: 10%;
+    border: 0;
+    padding:  12px 10px;
+    width: 130px;
+    text-decoration: none;
+}
+
+.container2 .slider-box #get-started:hover {
+    background-color: white;
+    color: black;
+    border: 0;
+    cursor: pointer;
+}
