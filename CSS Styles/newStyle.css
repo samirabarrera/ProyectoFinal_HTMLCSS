@@ -124,7 +124,6 @@
     }
 }
 
-
 /* Testimonials section */
 .container6 {
     text-align: center;
@@ -156,12 +155,18 @@
 .container7 {
     padding: 50px 20px;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
 }
 
 #contactus {
     flex: 1;
     margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 
 #info_ {
@@ -177,14 +182,21 @@
 .mapa iframe {
     max-width: 100%;
     border: none;
-    flex: 2;
+    flex: 1;
+    margin-right: 0;
 }
 
 .contact-form {
     flex: 1;
+    height: 60px;
+    width: 550px;
     display: flex;
     flex-direction: column;
     gap: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50%;
+    margin-top: 1%;
 }
 
 .contact-form input, .contact-form button {
@@ -194,10 +206,23 @@
 }
 
 .contact-form button {
-    background: #007BFF;
+    background: #fedc32;
     color: white;
+    height: 60px;
+    width: 100px;
+    font-size: large;
+}
+
+.contact-form input.message {
+    height: 100px;
+    width: 550px;
 }
 
 .contact-form a {
+    color: white;
+}
+
+.contact-form button:hover {
+    background-color: black;
     color: white;
 }
