@@ -1,0 +1,83 @@
+/* Footer */
+.container8 {
+    background: #333;
+    color: white;
+    padding: 50px 20px;
+}
+
+.menu1, .menu2, .menu3 {
+    flex: 1;
+    margin: 0 20px;
+}
+
+.menu1 h1, .menu2 h1, .menu3 h1 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.menu1 p, .menu2 p, .menu3 p {
+    font-size: 1.2em;
+}
+
+.menu1 ol, .menu2 ol {
+    margin: 20px 0;
+}
+
+.menu1 li, .menu2 li {
+    margin-bottom: 10px;
+}
+
+.menu4 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.menu4 a {
+    color: black;
+}
+
+@media (max-width: 768px) {
+    .container1 {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .main-navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container3 {
+        flex-direction: column;
+    }
+
+    .text_container, .aboutus_image {
+        max-width: 100%;
+    }
+
+    #all_images div {
+        flex: 1 1 calc(50% - 20px);
+    }
+
+    .container5 {
+        flex-direction: column;
+    }
+
+    .blog_1, .blog_2, .blog_3 {
+        margin: 20px 0;
+    }
+
+    .container7 {
+        flex-direction: column;
+    }
+
+    .mapa {
+        margin: 20px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    #all_images div {
+        flex: 1 1 100%;
+    }
+}
