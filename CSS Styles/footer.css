@@ -2,37 +2,28 @@
 .container8 {
     background: #333;
     color: white;
-    padding: 50px 20px;
 }
 
-.menu1, .menu2, .menu3 {
-    flex: 1;
-    margin: 0 20px;
-}
+.main-footer {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    height: 300px;
+    }
+    
+.menu1 { grid-area: 2 / 2 / 3 / 3; }
+.menu2 { grid-area: 2 / 3 / 3 / 4; }
+.menu3 { grid-area: 2 / 4 / 3 / 5; }
+.menu4 { grid-area: 2 / 5 / 3 / 6; }
 
-.menu1 h1, .menu2 h1, .menu3 h1 {
-    font-size: 1.5em;
-    margin-bottom: 10px;
-}
-
-.menu1 p, .menu2 p, .menu3 p {
-    font-size: 1.2em;
-}
-
-.menu1 ol, .menu2 ol {
-    margin: 20px 0;
-}
-
-.menu1 li, .menu2 li {
-    margin-bottom: 10px;
-}
-
-.menu4 {
+.menu5 {
     text-align: center;
     margin-top: 20px;
 }
 
-.menu4 a {
+.menu5 a {
     color: black;
 }
 
